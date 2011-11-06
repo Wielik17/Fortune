@@ -221,9 +221,9 @@ body{
 }
 
 #header-container{
-	background-color:#f16529;
+	background-image:url('tlo.png');
 	height:130px;
-	border-bottom:20px solid #e44d26;
+	border-bottom:20px solid #e1dd8c;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 40px 40px -40px #AAA;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
@@ -238,6 +238,8 @@ h3{font-size: 30px;}
 #title{
 	font-size: 60px;
 	color:white;
+	text-decoration:none;
+	text-shadow: 4px 4px black;
 	float:left;
 }
 
@@ -254,21 +256,22 @@ nav a{
 	padding:20px;
 	color:white;
 	text-decoration:none;
-	background-color:#e44d26;
+	background-color:#e1dd8c;
 }
 
 aside{
 	color:white;
-	padding:20px;
+	padding:10px;
 	float:right;
 	height:200px;
 	width:200px;
-	background-color:#f16529;
-	border-bottom:20px solid #e44d26;
+	background-color:#527861;
+	border-bottom:20px solid #e1dd8c;
 	margin-bottom:50px;
-	-webkit-box-shadow:0 0px 40px -10px #AAA;
-	   -moz-box-shadow:0 0px 40px -10px #AAA;
-	        box-shadow:0 0px 40px -10px #AAA;
+	-moz-box-shadow: 10px 10px 5px #888;
+	   -webkit-box-shadow: 10px 10px 5px #888;
+		box-shadow: 10px 10px 5px #888;
+
 }
 
 #main p{
@@ -286,9 +289,9 @@ article header{
 }
 
 #footer-container{
-	background-color:#f16529;
+	background-image:url('tlo.png');
 	height:240px;
-	border-top:20px solid #e44d26;
+	border-top:20px solid #e1dd8c;
 	margin-top:50px;
 	-webkit-box-shadow:0 -40px 40px -40px #AAA;
 	   -moz-box-shadow:0 -40px 40px -40px #AAA;
@@ -297,6 +300,7 @@ article header{
 
 #footer-container footer{
 	color:white;
+	text-shadow: 2px 2px black;
 }
 
 
