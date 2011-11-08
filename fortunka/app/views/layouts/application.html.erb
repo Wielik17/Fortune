@@ -27,7 +27,14 @@
 			<nav>
 				<ul>
 					<li><a href=".">Strona Główna</a></li>
-				
+					<li>
+					<% if current_user %>
+ 					<b><li id="hello"> Welcome <%= current_user.name %>!</li></b>
+  					<%= link_to "Sign Out", signout_path %>
+					<% else %>
+  					<%= link_to "Sign in with Twitter", "/auth/twitter" %>
+					<% end %>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -43,6 +50,7 @@
 				
 				
 			</header>
+		
 			<h3>Listing Fortunes</h3>
 			<p><%= yield %></p>
 			<footer>

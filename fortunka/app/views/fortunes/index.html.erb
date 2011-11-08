@@ -1,14 +1,12 @@
 
-
+<%= stylesheet_link_tag    "style_fortunka" %>
 <table>
   <tr>
     <th>Quotation</th>
     <th>Source</th>
     <th></th>
     <th></th>
-    <th></th>
   </tr>
-
 <% @fortunes.each do |fortune| %>
   <tr>
     <td><%= fortune.quotation %></td>
