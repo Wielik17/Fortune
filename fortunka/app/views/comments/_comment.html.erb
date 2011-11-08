@@ -1,0 +1,8 @@
+<p><i>Autor:</i> <%= comment.author %></p>
+<div class="comment"><i>Body:</i>
+  <%= comment.body %>
+</div>
+<p>
+  <%= link_to "Delete", [@fortune, comment], :confirm => "Czy jesteś pewny?", :method => :delete %>
+  <%= link_to 'Edit', edit_fortune_comment_path(@fortune, comment) %>
+</p>

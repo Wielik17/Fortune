@@ -1,10 +1,10 @@
 table{
-border-top-style:inset;
-border-right-style:inset;
-border-bottom-style:outset;
-border-left-style:inset;
+border:inset;
 border-width:5px;
+border-color:#e1dd8c;
+
 }
 
-td{
+th{
+
 }

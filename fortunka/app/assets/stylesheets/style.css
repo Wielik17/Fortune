@@ -272,11 +272,13 @@ aside{
 	color:white;
 	padding:10px;
 	float:right;
-	height:400px;
+	height:800px;
 	width:200px;
 	background-color:#527861;
 	border-bottom:20px solid #e1dd8c;
+	border-top:20px solid #e1dd8c;
 	margin-bottom:50px;
+	margin-left:30px;
 	-moz-box-shadow: 10px 10px 5px #888;
 	   -webkit-box-shadow: 10px 10px 5px #888;
 		box-shadow: 10px 10px 5px #888;

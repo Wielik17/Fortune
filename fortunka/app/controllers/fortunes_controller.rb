@@ -14,7 +14,7 @@ class FortunesController < ApplicationController
   # GET /fortunes/1.json
   def show
     @fortune = Fortune.find(params[:id])
-
+    @comment = Comment.new
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @fortune }
@@ -25,7 +25,7 @@ class FortunesController < ApplicationController
   # GET /fortunes/new.json
   def new
     @fortune = Fortune.new
-
+    
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @fortune }
