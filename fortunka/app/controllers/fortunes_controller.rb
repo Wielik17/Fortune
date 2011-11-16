@@ -3,9 +3,8 @@ class FortunesController < ApplicationController
   # GET /fortunes.json
   def index
     @fortunes = Fortune.all
-
     respond_to do |format|
-      format.html # index.html.erb
+	format.html # index.html.erb
       format.json { render json: @fortunes }
     end
   end

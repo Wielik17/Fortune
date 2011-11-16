@@ -60,6 +60,8 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     json (1.6.1)
+    kaminari (0.12.4)
+      rails (>= 3.0.0)
     kgio (2.6.0)
     libv8 (3.3.10.2)
     log4r (1.1.9)
@@ -209,6 +211,7 @@ DEPENDENCIES
   faker
   hirb
   jquery-rails
+  kaminari
   omniauth (= 0.3.2)
   populator
   rails (= 3.1.1)

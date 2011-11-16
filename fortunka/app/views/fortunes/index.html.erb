@@ -3,17 +3,21 @@
 <table>
   <tr>
     <th>Quotation</th>
-    <th>Source</th>
+    <th></th>
+	<th>Source</th>
+	<th></th>	
 	<th></th>
-<th></th>
-<th></th>
+	<th></th>
+	<th></th>
   </tr>
   <tr>
-    <td><%= fortune.quotation %></td> 
-    <td><%= fortune.source %></td>
-    <td><%= link_to 'Show', fortune %></td>
-    <td><%= link_to 'Edit', edit_fortune_path(fortune) %></td>
-    <td><%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %></td>
+    <td align="left"><%= fortune.quotation %></td> 
+    <td>  ||  </td>
+    <td align="center"><%= fortune.source %></td>
+    <td>  ||  </td>
+    <td align = "right"><%= link_to 'Show', fortune %></td>
+    <td align = "right"><%= link_to 'Edit', edit_fortune_path(fortune) %></td>
+    <td align = "right"><%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 </table>
 <br/>

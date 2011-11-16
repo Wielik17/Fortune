@@ -195,8 +195,15 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
    ========================================================================== */
 
 table{
-border-width: thin thick medium; border-style: solid;
+border:inset;
+border-width:10px;
 border-color:#e1dd8c;
+border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+	-webkit-box-shadow:0 40px 40px -40px #AAA;
+	   -moz-box-shadow:0 40px 40px -40px #AAA;
+	        box-shadow:0 40px 40px -40px #AAA;
 
 }
 
