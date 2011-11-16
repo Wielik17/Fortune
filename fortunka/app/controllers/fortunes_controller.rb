@@ -2,10 +2,10 @@ class FortunesController < ApplicationController
   # GET /fortunes
   # GET /fortunes.json
   def index
-    @fortunes = Fortune.all
-    respond_to do |format|
-	format.html # index.html.erb
-      format.json { render json: @fortunes }
+    @fortunes = Fortune.order(:source).page(params[:page]).per(8)
+        respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @fortune }
     end
   end
 
