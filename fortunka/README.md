@@ -1,6 +1,6 @@
 Fortunka:
 
-*CRUD
+* CRUD
 
 
 ##Funkcjonalnosc:
@@ -12,4 +12,4 @@ Fortunka:
 ##Wykorzystane Materiały:
 
 * HTML5 Boilerplate
-* initializor
+* initializr
