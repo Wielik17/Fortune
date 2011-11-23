@@ -1,7 +1,15 @@
 Fortunka:
 
+*CRUD
+
+
 ##Funkcjonalnosc:
 
--komentarz
--paginacja
--autoryzacja
+* komentarz
+* paginacja
+* autoryzacja Twitter
+
+##Wykorzystane Materiały:
+
+* HTML5 Boilerplate
+* initializor
